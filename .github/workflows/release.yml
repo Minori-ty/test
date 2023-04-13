@@ -15,7 +15,7 @@ jobs:
 
             - name: Create Release for Tag
               id: release_tag
-              uses: Minori-ty/release-tag@master
+              uses: yyx990803/release-tag@master
               env:
                   GITHUB_TOKEN: ${{ secrets.TOKEN }}
               with:
